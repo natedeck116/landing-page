@@ -43,3 +43,24 @@ li {
 
 
 }
+
+h1, p {
+color: #F9FAF8;
+
+}
+
+img {
+object-fit: cover;
+height: 200px;
+width: 200px;
+}
+
+.content {
+display: flex;
+justify-content: space-around;
+}
+
+.left {
+
+
+}
