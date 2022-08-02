@@ -7,7 +7,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .section1 {
 margin: 0;
 padding: 0;
-background-color: #1F2937;
+background-color: rgb(235, 119, 106);
 min-height: 400px;
 }
 
@@ -37,11 +37,6 @@ gap: 20px;
 list-style-type: none;    
 }
 
-li {
-
-
-}
-
 h1, p {
 color: #F9FAF8;
 
@@ -64,10 +59,10 @@ font-size: 18px;
 
 
 
-img {
+.section1 img {
 object-fit: cover;
 height: 300px;
-width: 500px;
+width: 400px;
 flex-shrink: 1;
 }
 
@@ -83,11 +78,44 @@ padding: 50px;
 .left {
 display: flex;
 flex-direction: column;
+
 }
 
 button {
 
 max-width: 100px;
 min-width: none;
+color: white;
+background-color: rgb(80, 196, 241);
+border: none;
+text-decoration: none;
+padding: 5px;
+border-radius: 5px;
+
+}
+
+.section2 {
+background-color: #F9FAF8;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 40px;
+text-align: center;
+
+}
+
+.info img {
+max-width: 200px;
+width: 200px;
+height: 200px;
+object-fit: cover;
+flex-shrink: 1;
+border-radius: 5px;
+border: 3px solid rgb(235, 119, 106); 
+}
+
+.section2 .info .text {
+font-size: 14px;
 
 }
