@@ -121,7 +121,7 @@ object-fit: cover;
 flex-shrink: 1;
 flex-grow: 1;
 border-radius: 5px;
-border: 3px solid rgb(235, 119, 106); 
+border: 3px solid rgb(213, 69, 53); 
 margin-bottom: 15px;
 
 }
@@ -185,7 +185,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 align-self: center;
-background-color: rgb(235, 119, 106);
+background-color: rgb(213, 69, 53);
 border-radius: 5px;
 max-width: 700px;
 max-height: 200px;
@@ -202,7 +202,7 @@ padding-right: 100px;
 .box button {
 
 padding: 10px;
-background-color: rgb(235, 119, 106);
+background-color: rgb(213, 69, 53);
 border: 2px solid #F9FAF8;
 border-radius: 5px;
 color:#F9FAF8;
@@ -227,8 +227,9 @@ margin-bottom: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-background: #eee;
+background: rgb(235, 119, 106);
 width: 100%;
 margin: 0;
 min-height: 40px;
+color: #F9FAF8
 }
